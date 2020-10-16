@@ -5,6 +5,10 @@
 This site was built for an independent Friday project at _Epicodus_, and is designed to act as both a place to learn about me, and act as a portfolio of my work
 
 # Setup
+
+### Online site can be found here:
+http://giuntajc.github.io/Portfolio
+
 ### To run this site offline
 
 1. Download or clone this repository
