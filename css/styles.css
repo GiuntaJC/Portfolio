@@ -15,9 +15,10 @@ img {
 .project{
   width: 25%;
   float: left;
-  border: solid red;
-  padding: 10px;
-  margin: 10px;
+  border: solid black;
+  background-color: lightsteelblue;
+  margin: 15px;
+  height: 250px;
   box-sizing: border-box
 }
 .row-clear {
