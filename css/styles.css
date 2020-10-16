@@ -1,18 +1,44 @@
 body {
   background-color: #F0F8FF;
   text-align: center;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
 }
 
-img {
+body.Index {
+}
+
+.about {
   width: 20%;
-  height: 20%;
+  float: left;
+  border: solid black;
+  background-color: lightsteelblue;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box
+}
+
+.Index img {
+  clear: both;
+  width: 75%;
+  height: 75%;
+}
+
+.highlight {
+  color: green;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .All-projects h2 {
   font-style: italic;
   font-weight: bolder;
 }
-.project{
+
+.All-projects p {
+  font-weight: bold;
+}
+
+.project {
   width: 25%;
   float: left;
   border: solid black;
