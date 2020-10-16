@@ -4,7 +4,19 @@ body {
   font-family:  Georgia, 'Times New Roman', Times, serif;
 }
 
-body.Index {
+h1, h2 {
+  color: blue;
+}
+
+body.Index .Text {
+  list-style-position: inside;
+  width: 60%;
+  float: left;
+  border: solid black;
+  background-color: lightsteelblue;
+  padding: 20px;
+  margin: 20px;
+  box-sizing: border-box
 }
 
 .about {
@@ -47,6 +59,12 @@ body.Index {
   height: 250px;
   box-sizing: border-box
 }
+
+.project ul {
+  list-style-position: inside;
+  text-align: left;
+}
+
 .row-clear {
   clear: both;
 }
