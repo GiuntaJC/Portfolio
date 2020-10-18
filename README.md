@@ -23,8 +23,13 @@ http://giuntajc.github.io/Portfolio
 * HTML
 * CSS
 * Visual Studio Code
+* Google fonts
 
 # Legal
+Deco typeface used for header is "Limelight' designed by Sorkin Type, hosted on Google fonts and is licensed under SIL Open Font License
+
+---
+
 Copyright 2020 Joseph C Giunta
 
 This software is licensed under the MIT license.

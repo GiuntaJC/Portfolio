@@ -1,19 +1,28 @@
 body {
-  background-color: #F0F8FF;
+  background-color: #232137;
+  color: goldenrod;
   text-align: center;
   font-family:  Georgia, 'Times New Roman', Times, serif;
 }
 
-h1, h2 {
-  color: blue;
+a:link, a:visited {
+  color: goldenrod;
+}
+
+a:hover, a:active {
+  color: gold;
+}
+
+h1, h2, .deco {
+  font-family: 'Limelight', cursive;
 }
 
 body.Index .Text {
   list-style-position: inside;
   width: 60%;
   float: left;
-  border: solid black;
-  background-color: lightsteelblue;
+  border: double goldenrod;
+  border-width: 6px;
   padding: 20px;
   margin: 20px;
   box-sizing: border-box
@@ -22,8 +31,8 @@ body.Index .Text {
 .about {
   width: 20%;
   float: left;
-  border: solid black;
-  background-color: lightsteelblue;
+  border: double goldenrod;
+  border-width: 6px;
   padding: 20px;
   margin: 20px;
   box-sizing: border-box
@@ -36,13 +45,12 @@ body.Index .Text {
 }
 
 .highlight {
-  color: green;
+  color: gold;
   font-style: italic;
   font-weight: bold;
 }
 
 .All-projects h2 {
-  font-style: italic;
   font-weight: bolder;
 }
 
@@ -50,21 +58,17 @@ body.Index .Text {
   font-weight: bold;
 }
 
-.project {
-  width: 25%;
+.row {
+  width: 30%;
   float: left;
-  border: solid black;
-  background-color: lightsteelblue;
+  border: double goldenrod;
+  border-width: 6px;
   margin: 15px;
-  height: 250px;
+  height: 275px;
   box-sizing: border-box
 }
 
-.project ul {
+.row ul {
   list-style-position: inside;
   text-align: left;
-}
-
-.row-clear {
-  clear: both;
 }
