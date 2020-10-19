@@ -1,31 +1,79 @@
 body {
-  background-color: #F0F8FF;
+  background-color: #232137;
+  color: goldenrod;
   text-align: center;
   font-family:  Georgia, 'Times New Roman', Times, serif;
 }
 
-h1, h2 {
-  color: blue;
+.Projects-page .jumbotron {
+  background-color: #232137;
+  border: double goldenrod;
+  border-width: 6px;
+  margin-left: 60px;
 }
 
-body.Index .Text {
-  list-style-position: inside;
-  width: 60%;
-  float: left;
-  border: solid black;
-  background-color: lightsteelblue;
-  padding: 20px;
-  margin: 20px;
-  box-sizing: border-box
+.Index .jumbotron {
+  background-color: #232137;
+  border: double goldenrod;
+  border-width: 6px;
+}
+
+a:link, a:visited {
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: gold;
+}
+
+h1, h2, .deco {
+  font-family: 'Limelight', cursive;
 }
 
 .about {
-  width: 20%;
+  width: 15%;
   float: left;
-  border: solid black;
-  background-color: lightsteelblue;
+  border: double goldenrod;
+  border-width: 6px;
   padding: 20px;
   margin: 20px;
+  margin-left: 320px;
+}
+
+.background-text {
+  float: left;
+  width: 50%;
+  height: 200px;
+  border: double goldenrod;
+  border-width: 6px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.interest-text {
+  float: left;
+  width: 953px;
+  height: 150px;
+  border: double goldenrod;
+  border-width: 6px;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.interest-list {
+  list-style-position: inside;
+  width: 291px;
+  height: 400px;
+  float: left;
+  border: double goldenrod;
+  border-width: 6px;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 10px;
   box-sizing: border-box
 }
 
@@ -36,35 +84,24 @@ body.Index .Text {
 }
 
 .highlight {
-  color: green;
+  color: gold;
   font-style: italic;
   font-weight: bold;
 }
 
-.All-projects h2 {
-  font-style: italic;
-  font-weight: bolder;
-}
-
-.All-projects p {
+.row p {
   font-weight: bold;
 }
 
-.project {
-  width: 25%;
-  float: left;
-  border: solid black;
-  background-color: lightsteelblue;
+.col-5 {
+  border: double goldenrod;
+  border-width: 6px;
   margin: 15px;
-  height: 275px;
+  height: 300px;
   box-sizing: border-box
 }
 
-.project ul {
+.col-5 ul {
   list-style-position: inside;
   text-align: left;
-}
-
-.row-clear {
-  clear: both;
 }
